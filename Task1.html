@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+  <form>
+  <center>
+    <table border="5">
+      <thead>
+          <tr>
+            <td colspan="5" bgcolor="green"><b><center>Register Form</center></b></td>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>First Name</td>
+          <td colspan="4"><input type="text" name="Firstname" placeholder="Firstname" value=""></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td colspan="4"><input type="text" name="lastname" placeholder="lastname" value=""></td>
+        </tr>
+        <tr>
+          <td>Username</t>
+          <td colspan="4"><input type="text" name="username" placeholder="username" value=""></td>
+        </tr>
+        <tr>
+        <tr>
+          <td>password</t>
+          <td colspan="4"><input type="password" name="Password" placeholder="password" value=""></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td colspan="4">
+            <select name="Geneder">
+              <option value="Other">Other</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            
+          </td>
+        </tr>
+        <tr>
+        <tr>
+          <td rowspan="3">Course</td>
+          <td colspan="4"><input type="radio" id="FullStack" name="website" value="FullStack"/>
+              <label for="FullStack">FullStack</label></td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="radio" id="FrontEnd" name="website" value="FrontEnd"/>
+              <label for="FrontEnd">FrontEnd</label></td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="radio" id="Backend" name="website" value="Backend"/>
+              <label for="Backend">Backend</label></td>
+        </tr>
+        <tr>
+          <td>E-mail</td>
+          <td colspan="4"><input type="email" name="E-mail" placeholder="ahmed.ehab@gmail.com" value=""></td>
+        </tr>
+        <tr>
+          <td>Mobile Number</td>
+          <td colspan="4"><input type="number"></td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td><input type="checkbox" id="English" name="English" />English</td>
+          <td><input type="checkbox" id="French" name="French" />French</td>
+          <td><input type="checkbox" id="German" name="German" />German</td>
+          <td><input type="checkbox" id="Arabic" name="Arabic" />Arabic</td>
+        </tr>
+        <tr>
+          <td>Date Of Birth</td>
+          <td colspan="4"><input type="date" value=""></td>
+        </tr>
+        <tr>
+          <td rowspan="7">Description</t>
+          <!-- <td colspan="4"><input type="" name="Description" placeholder="PLz descripe your job" value=""></td> -->
+          <td colspan="4"><textarea rows="7" ></textarea></td>
+        </tr>
+  </tbody>
+  <tfoot>
+      <tr>
+          <td colspan="5">
+            <center>
+              <button type="submit">Done</button>
+              <button type="reset">Erase</button>
+            </center>
+          </td>
+      </tr>
+  </tfoot>
+    </table>
+  </center> 
+  </form>
+</body>
+</html>
